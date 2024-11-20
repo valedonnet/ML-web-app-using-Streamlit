@@ -1,7 +1,7 @@
 from pickle import load
 import streamlit as st
 
-model = load(open("/workspaces/ML-web-app-using-Streamlit/models/random_forest_classifier_default_42.sav", "rb"))
+model = load(open("../models/random_forest_classifier_default_42.sav, "rb"))
 
 class_dict={
     "0": "Negative in diabetes",
